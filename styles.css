@@ -108,8 +108,8 @@ button {
 }
 
 .box-container .box {
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
 }
 
 .box-container img {
@@ -122,4 +122,22 @@ button {
 
 .box-container p {
     text-align: center;
+    font-size: 18px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding:150px 550px;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight:300;
+    font-style: italic;
+}
+
+#author {
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
 }
