@@ -40,8 +40,9 @@ ul {
     gap: 30px;
 }
 
-a,
-.hero-container p {
+
+.hero-container p,
+a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
@@ -81,4 +82,44 @@ button {
 
 .hero-container p {
     margin-bottom: 12px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937; 
+    text-align: center;
+    padding: 50px;
+}
+
+.box-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 150px;    
+    flex-wrap: wrap;
+}
+
+.box-container .box {
+    width: 200px;
+    height: 200px;
+}
+
+.box-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+.box-container p {
+    text-align: center;
 }
